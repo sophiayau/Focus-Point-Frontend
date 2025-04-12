@@ -139,7 +139,7 @@ function App() {
   useEffect(() => {
     const launchServer = async () => {
       try {
-        const res = await fetch("https://launch-ec2instance-production.up.railway.app/launch", {
+        const res = await fetch("https://launch-ec2-fp-production.up.railway.app/launch", {
           method: "POST",
         });
         const data = await res.json();
